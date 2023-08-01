@@ -49,7 +49,7 @@ create2ndPost().then(()=>{
 })
 .then(()=>{
     console.log("Deleted last post");
-        console.log("New set of posts:");
+        console.log("New set of posts of user are:");
         posts.forEach((post) => {
             console.log(post.title);
         });
